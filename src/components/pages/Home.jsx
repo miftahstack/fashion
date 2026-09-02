@@ -1,5 +1,6 @@
 import Application from '../layouts/Application'
 import Favourite from '../layouts/Favourite'
+import Footer from '../layouts/Footer'
 import HeroSection from '../layouts/HeroSection'
 import JoinCommunity from '../layouts/JoinCommunity'
 import Logo from '../layouts/Logo'
@@ -21,6 +22,7 @@ const Home = () => {
     <Favourite/>
     <Application/>
     <JoinCommunity/>
+    <Footer/>
     </>
   )
 }
