@@ -13,7 +13,7 @@ const JoinCommunity = () => {
                         <p className='text-[24px] text-white'>Type your email down below and be young wild generation</p>
 
                         <div className="bg-white w-100.5 rounded-[5px] py-1 mt-5">
-                            <input type="text" className=' py-2 pl-3' placeholder='Add your email here' />
+                            <input type="text" className='outline-none py-2 pl-3' placeholder='Add your email here' />
                             <Button className={`uppercase mr-1`} text={`Send`} />
                         </div>
                     </Flex>
