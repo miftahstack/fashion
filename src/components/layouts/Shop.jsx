@@ -1,5 +1,6 @@
 import React from 'react'
-import Container from '/src/components/Container.jsx';
+import Container from '../Container';
+
 import Flex from '../Flex'
 import Button from '../Button';
 
