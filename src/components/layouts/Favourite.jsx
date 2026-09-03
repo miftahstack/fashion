@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 // Img
 import favgOne from '/src/assets/favgOne.png';
-import favgTwo from '/src/assets/favgOne.png';
+import favgTwo from '/src/assets/favgTwo.png';
 // Img
 
 const Favourite = () => {
