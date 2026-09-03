@@ -1,5 +1,5 @@
 import logo from '/logo.svg'
-import Container from '../container'
+import Container from '../Container'
 import Flex from '../Flex'
 import Button from '../Button'
 
