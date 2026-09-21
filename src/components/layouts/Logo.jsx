@@ -1,6 +1,11 @@
-import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
+// React Slick
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// React Slick
+
 
 // Img
 import amazon from "/src/assets/logos/amazon.png";
@@ -12,21 +17,32 @@ import shopify from "/src/assets/logos/shopify.png";
 // Img
 
 const Logo = () => {
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <>
-    <div className="bg-[#EBD96B] py-5 my-25">
+      <div className="bg-[#EBD96B] py-5 my-25">
 
-      <Container>
-        <Flex className={`justify-evenly`}>
-          <img src={amazon} alt="" />
-          <img src={h_m} alt="" />
-          <img src={lacoste} alt="" />
-          <img src={levis} alt="" />
-          <img src={obey} alt="" />
-          <img src={shopify} alt="" />
-        </Flex>
-      </Container>
-    </div>
+        <Container>
+          <Slider {...settings}>
+            <div className={`flex md:flex-row flex-col items-center justify-evenly`}>
+              <img src={amazon} alt="" />
+              <img src={h_m} alt="" />
+              <img src={lacoste} alt="" />
+              <img src={levis} alt="" />
+              <img src={obey} alt="" />
+              <img src={shopify} alt="" />
+            </div>
+          </Slider>
+        </Container>
+      </div>
     </>
   )
 }
