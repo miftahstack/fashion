@@ -18,20 +18,14 @@ import shopify from "/src/assets/logos/shopify.png";
 
 const Logo = () => {
 
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+
 
   return (
     <>
       <div className="bg-[#EBD96B] py-5 my-25">
 
         <Container>
-          <Slider {...settings}>
+
             <div className={`flex md:flex-row flex-col items-center justify-evenly`}>
               <img src={amazon} alt="" />
               <img src={h_m} alt="" />
@@ -40,7 +34,7 @@ const Logo = () => {
               <img src={obey} alt="" />
               <img src={shopify} alt="" />
             </div>
-          </Slider>
+
         </Container>
       </div>
     </>
